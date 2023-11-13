@@ -1,0 +1,222 @@
+:root{
+    --background: #111d5e;
+    --second-color: #b21f66;
+    --third-color: #f95959;
+    --fourth-color: #e3e3e3;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+header{
+    margin-top: -20px;
+    background: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-wrapper{
+    display: flex;
+    margin-left: -50px;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 64px
+}
+
+.grid-column{
+    grid-template-columns: 1fr;
+}
+
+.grid-2-columns{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-columns{
+    grid-template-columns: repeat(3, 1fr);
+} 
+
+.grid-3-columns-with-first-narrow{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title{
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+nav{
+    margin-left: 400px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+nav a{
+    margin-top: -40px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    font-weight: bolder;
+    color: #004097;
+}
+
+.search-input{
+    width: 900px;
+    padding: 20px;
+    margin-left: 200px;
+    height: 80px;
+    border: 2px solid rgb(183, 182, 182);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.search-wrapper button{
+    background: rgb(183, 182, 182);
+    font-size: 24px;
+    color: black;
+    position: relative;
+    left: -73px;
+    height: 80px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    height: 80px;
+    border: 1px solid rgb(183, 182, 182);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.search-wrapper input:hover{
+    border: 2px solid #004097;
+    
+}
+
+.search-wrapper button:hover{
+    border: 2px solid #004097;
+}
+
+.search-wrapper button:active{
+    color: white;
+    background: grey;
+}
+
+section{
+    margin-left: 120px;
+
+}
+
+section li{
+    list-style: none;
+}
+
+section a{
+    text-decoration: none;
+    color: #004097;
+}
+
+
+.define{
+    text-align: center;
+}
+
+.border-section{
+    border: 1px solid #004097;
+    padding: 80px;
+    width: 900px;
+    margin-left: 50px;
+}
+
+footer{
+    background:#4A4A4A;
+}
+
+footer a{
+    color: whitesmoke;
+}
+
+.footer-section li{
+    margin-top: 20px;
+    
+}
+
+@media(max-width: 600px){
+    
+}
+
+
+@media(max-width:960px){
+.search-input{
+    width: 400px;
+    margin-left: 100px;
+}   .title{
+    text-align: center;
+    margin-left: -300px;
+    margin-top: 300px;
+}
+
+.title{
+    margin-bottom: -10px;
+}
+
+header{
+    margin-top: 20px;
+}
+
+ .navi{
+    margin-left: -330px;
+    width: 400px;
+}
+section{
+    margin-left: 50px!important;
+}
+
+.border-section{
+    padding: 80px;
+    width: 400px;
+    margin-left: 0.5px;    
+    margin-right: 50px!important;
+}
+
+
+.footer-section{
+    margin-left: 20px;
+    box-sizing: content-box
+
+}
+
+section a{
+    text-decoration: none;
+}
+
+section ul{
+    font-size: 10px;
+}
+
+}     
